@@ -1,0 +1,363 @@
+.icon {
+  : 1px solid #fccde5
+  border-radius: 1.5em;
+  box-shadow: 0 0 2px #b32265;
+}
+
+.icon {
+  border-radius: 5em;
+}
+
+body,
+.heading {
+  font-family: Mido, Georgia ,serif;
+  color: #b32265;
+}
+
+#inner h2.heading,
+#home .heading {
+  font-family: "Mido", "Georgia",serif;
+  text-transform: none;
+  letter-spacing: 0.5px;
+}
+
+button,
+.actions a,
+.actions a:link,
+.action,
+input[type="submit"],
+.actions a:visited {
+  color: #ffffff;
+  background-color: #F99BCC;
+}
+
+button:hover,
+.actions a:hover,
+.action:hover,
+input[type="submit"]:hover {
+  color: #b32265;
+  background-color: #F457A9;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+button,
+.current,
+.actions label {
+  border: none;
+  background-image: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+}
+
+.actions input,
+input[type="submit"],
+textarea {
+  border: 1px solid;
+  background-image: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+}
+
+input {
+  width: 96%;
+  border: 1px solid;
+  background-image: none;
+  box-shadow: none;
+}
+
+.actions input[type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+}
+
+form.search input[type="text"] {
+  border-top-color: initial;
+}
+
+.actions a:hover,
+a:hover,
+.actions input:hover,
+#dashboard a:hover,
+.actions a:focus,
+.actions input:focus,
+#dashboard a:focus,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+.actions a:hover,
+.actions input:hover,
+#dashboard a:hover,
+.actions a:focus,
+.actions input:focus,
+#dashboard a:focus,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+#dashboard .current,
+.actions a:active,
+#outer .current,
+#header .current,
+a.current,
+.current a:visited,
+span.unread,
+.replied,
+span.claimed,
+dl.index dd,
+.own,
+.draft,
+.draft .unread,
+.child,
+.unwrangled,
+.unreviewed,
+.ui-sortable li:hover,
+#header .primary .menu .current {
+  border-color: initial;
+  box-shadow: none !important;
+}
+
+#header .primary,
+.group.listbox,
+fieldset fieldset.listbox,
+#main li.blurb,
+.wrapper,
+#dashboard .secondary,
+.secondary,
+form blockquote.userstuff,
+.thread .comment,
+.toggled form,
+#header .primary,
+.listbox .index,
+form .notice,
+form ul.notes,
+form.verbose legend,
+.verbose form legend,
+span.question,
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+.delete a,
+span.delete,
+#header ul.primary {
+  box-shadow: none;
+}
+
+.notice,
+.comment_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.alert.flash,
+.actions a:hover,
+.actions input:hover,
+.actions a:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus,
+.notice,
+.comment_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.alert.flash,
+.actions a:hover,
+.actions input:hover,
+.actions a:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.listbox .index,
+.dashboard .listbox .index,
+form .notice,
+form ul.notes,
+form.verbose legend,
+.verbose form legend,
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+input[type="submit"],
+button,
+.current,
+.actions label {
+  border: none;
+  border-bottom: none;
+  background-image: none;
+  box-shadow: none;
+}
+
+#header .menu,
+#small_login,
+#header .dropdown:hover .current+.menu {
+  box-shadow: none;
+  background-image: none;
+  filter: none;
+}
+
+#header .actions a,
+#header .actions a:visited,
+#header .actions a:hover,
+#header .actions a:focus,
+#footer .actions a,
+#footer .actions a:visited,
+#footer .actions a:hover,
+#footer .actions a:focus {
+  text-shadow: none;
+  box-shadow: none;
+}
+
+#header .menu,
+#small_login,
+#header .dropdown:hover .current + .menu,
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .dropdown:hover .menu a:hover,
+#header .dropdown .menu a:focus,
+.search span.tip {
+  background: #b32265;
+}
+
+#outer {
+  background: #b32265 url(https://i9.glitter-graphics.org/pub/1126/1126699b1zlvis2kn.gif);
+}
+
+#inner {
+  background: rgba(255,255,255,0.7);
+  padding: 1.5em 1em;
+}
+
+#header,
+#footer ul.actions {
+  background: rgba(255, 74, 177,0.5);
+  min-height: 0;
+  margin: 0;
+  box-shadow: 1px 0 1px #000;
+}
+
+#main,
+#footer,
+li.blurb,
+.wrapper,
+.flash,
+.listbox,
+.listbox .index,
+.dashboard .listbox .index,
+#main fieldset,
+.verbose legend {
+  background: rgba(255,255,255,0.5);
+}
+
+#greeting img.icon {
+  height: 3.571em;
+  width: 3.571em;
+}
+
+#header h1 img {
+  display: none;
+}
+
+#header .heading a {
+  line-height: 1;
+  font-size: 4em;
+  color: rgba(255, 232, 242,0.8);
+  text-shadow: none;
+}
+
+#header ul.primary {
+  background: rgba(255, 89, 186,0.35);
+  display: block;
+  margin-top: 0.7em;
+  text-align: right;
+  border-color: rgba(0,0,0,0.5);
+}
+
+#header .actions a,
+#header .current,
+#header #search .button,
+#header fieldset {
+  background: none;
+  color: rgba(255,255,255,0.75);
+  border: 0;
+  box-shadow: none;
+}
+
+#header .current {
+  background: rgba(0,0,0,0.25);
+  box-shadow: inset 0 0 3px #000;
+}
+
+#header .user a,
+#header .user .current {
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+#header .primary .open a,
+#header .primary .dropdown:hover a,
+#header .primary .dropdown a:focus,
+#header .user a:hover,
+#header .user a:focus,
+#header .user .current,
+#header #search .button:focus {
+  color: rgba(255,255,255,0.75);
+}
+
+#header .menu,
+#small_login,
+#header .dropdown:hover .current + .menu,
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .dropdown:hover .menu a:hover,
+#header .dropdown .menu a:focus,
+.search span.tip {
+  background: rgba(179, 34, 101,0.8);
+}
+
+#header .dropdown:hover .menu a {
+  background: transparent;
+}
+
+.actions a,
+.current,
+#inner #dashboard ul,
+#dashboard.own {
+  border-color: #b32265;
+}
+
+#main,
+li.blurb,
+.wrapper,
+.flash,
+.listbox {
+  box-shadow: 0 1px 2px;
+  outline: none;
+}
+
+.current {
+  color: #b32265;
+  background-color: #F668B2;
+}
+
+::selection {
+  background-color: #ff59ba;
+}
